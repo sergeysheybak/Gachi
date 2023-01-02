@@ -1,68 +1,151 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'roboto';
 }
-ul,
-ol {
-  padding: 0;
-  list-style: none;
-}
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-/* font-family: 'Comforter', cursive;
-font-family: 'Raleway', sans-serif;
-font-family: 'Supermercado One', cursive; */
-body {
-  font-family: "Supermercado One", cursive;
-  font-size: 24px;
-  letter-spacing: 10px;
-}
-.lox {
-  color: royalblue;
-}
-.pidr {
-  color: red;
-}
-a {
-  text-decoration: none;
-}
-.paper {
-  width: 300px;
-  height: 300px;
-  background-color: rgb(214, 174, 15);
-  padding-top: 15px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  border: 2px dashed #2a2a2a;
-  margin-left: auto;
-  margin-right: auto;
-}
-.lolol {
-  margin-bottom: 60px;
-}
+h1 {margin: 0;}
+
 
 .container {
-  width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.lolol-items:not(:last-child) {
-  margin-bottom: 20px;
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
 }
 
-.lolol-items:nth-child(2n + 3) {
-  color: red;
+.header {
+    display: flex;
+}
+
+.navigation_list {
+    display: flex;
+    margin-right: 331px;
+}
+.contacts_list {
+    display: flex;
+}
+.logo {
+    margin-right: 93px;
+    padding-top: 24px;
+        padding-bottom: 25px;
+        font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+            letter-spacing: 0.03em;
+      color: #000000;
+}
+.navigation_link {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+padding-top: 32px;
+    padding-bottom: 32px;
+}
+.navigation_item {
+    padding-top: 32px;
+        padding-bottom: 32px;
+}
+
+.contact_link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #757575;
+        padding-top: 32px;
+            padding-bottom: 32px;
+}
+.contact_link:hover {
+    color: #2196F3;
+    cursor: pointer;
+}
+.navigation_link:hover {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.contacts_item {
+    padding-top: 32px;
+        padding-bottom: 32px;
+}
+
+.navigation_item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.contacts_item:not(:last-child) {
+    margin-right: 50px;
+}
+.header_main {background-color: #FFFFFF;}
+
+/* hero ------------ */
+
+.hero {
+    background-color: #2F303A;
+}
+.hero_main {
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 696px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+}
+
+.hero_button {
+    display: block;
+margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+/* section three */
+.benificiar_list {
+    display: flex;
+}
+.benificiar_item {
+    width: 270px;
+}
+.benificiar_item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.benificiar_name {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+        margin-bottom: 10px;
+}
+.ben_text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.section_three {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
